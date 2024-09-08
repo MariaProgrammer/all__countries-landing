@@ -1,0 +1,28 @@
+.language-school__wrap {
+  flex: 1 1 300px;
+  box-shadow: inset 0px 0px 0px 100vw #75A0A5;
+ 
+}
+.language-school__wrap-text {
+  flex: 1 1 415px;
+}
+
+.language-school__subtitle {
+  max-width: 190px;
+  line-height: 2;
+  padding-top: 50px;
+  color: #fff;
+  font-size: var(--button-text);
+  font-weight: 700;
+}
+
+.language-school__button{
+  background: #fff;
+  color: var(--dark-blue);
+  
+  
+}
+
+.language-school__button:hover, .language-school__button:focus, .language-school__button:active {
+  color: #fff;
+} 

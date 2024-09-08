@@ -1,0 +1,976 @@
+@media (max-width: 1400px) {
+  .adventages__img {
+    height: 450px;
+  }
+  .hero__main {
+    background: url("../img/study.png") no-repeat 50vw 10px / 600px;
+  }
+  .hero__list {
+    width: 50%;
+  }
+  .consultation__container--first {
+    gap: 50px;
+  }
+  .why__container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1194px) {
+  .container {
+    padding: 0 15px;
+  }
+  .title {
+    /* margin-top: 20px; */
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .hero__title {
+    font-size: 22px;
+  }
+  .hero__gold {
+    height: 4vw;
+  }
+  /* .list__container {
+    height: 120%;
+    background: url("../img/study.png") no-repeat 60vw -10px / contain;
+  } */
+  /* .hero__main {
+    background: url("../img/study.png") no-repeat 50vw 50px / 500px;
+  }  */
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .adventages__subtitle {
+    margin-bottom: 15px;
+  }
+  .adventages__rentangle--white {
+    width: 45vw;
+  }
+
+  .consultation__title {
+    line-height: 1.5;
+  }
+  .consultation__subtitle,
+  .language-school__subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .consultation__container {
+    max-width: 100%;
+  }
+  .universal__container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .universal__bottom-wrap--text {
+    font-size: 16px;
+  }
+
+  .admission__bottom,
+  .admission__bottom-wrap,
+  .admission__inner--left,
+  .admission__inner--right {
+    width: 100%;
+    max-width: 100%;
+  }
+  .admission__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .turkey-guide__container {
+    max-width: 100%;
+    align-items: stretch;
+    justify-content: stretch;
+  }
+
+  .turkey-guide__right {
+    margin: 0 auto;
+    max-width: 70%;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  .turkey-guide--text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .turkey-guide__wrap {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .bulsari__container {
+    max-width: 100%;
+  }
+  .university-guide__bottom-wrap {
+    align-items: center;
+  }
+  .universe-guide__bottom-img {
+    order: 0;
+    align-self: center;
+    margin-bottom: 15px;
+  }
+  .universe-guide__bottom {
+    order: 1;
+  }
+  .medicine__bottom-buttons {
+    order: 2;
+  }
+  .footer {
+    height: 65vw;
+    /* background: url("../img/footer__bg.png") no-repeat center / cover;  */
+  }
+  .admission__bottom {
+    align-items: start;
+  }
+  .turkey-guide__bottom-img {
+    margin: 0;
+  }
+  .consultation__container--first {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav__contacts-link {
+    font-size: 16px;
+  }
+  .hero__title {
+    width: 85%;
+  }
+  .consultation__container {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .consultation__left {
+    padding: 20px;
+    margin: 0;
+  }
+  .consultation__right {
+    padding: 20px;
+  }
+  .universal__container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .universal__bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .universal__bottom-wrap-top,
+  .universal__bottom-wrap-middle,
+  .universal__bottom-wrap-bottom {
+    flex: 0;
+  }
+  .universal__img {
+    margin: 0;
+  }
+
+  .universal__top {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* justify-content: space-between; */
+  }
+  .universal__top--right {
+    display: none;
+  }
+  .universal__top--left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .universal__subtitle {
+    text-align: center;
+  }
+  .universal__top--list {
+    width: 100%;
+  }
+  .universal__list-item--top {
+    width: 100%;
+  }
+  .universal__buttons {
+    height: 100px;
+  }
+
+  .universal__bottom-buttons {
+    display: block;
+    /* max-width: 100%; */
+  }
+  .universal__button {
+    width: 100%;
+  }
+  .universal__bottom-wrap-top,
+  .universal__bottom-wrap-bottom {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .universal__title {
+    text-align: center;
+  }
+  .universal__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 15px;
+  }
+  .universal__bottom-wrap {
+    align-items: center;
+    justify-content: center;
+  }
+  .universal__bottom-wrap-middle {
+    margin-bottom: 20px;
+  }
+  .universal__bottom-margin {
+    margin-bottom: 20px;
+  }
+  .universal__top--left {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .programs__item {
+    padding: 30px 0;
+  }
+  .subtitle-text {
+    padding-bottom: 20px;
+  }
+  .admission__title {
+    text-align: center;
+  }
+
+  .admission__top--right {
+    display: none;
+  }
+  .admission__bottom {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .admission__bottom-wrap {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .admission__subtitle {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .admission__img--wrap,
+  .artist-guide__img--wrap {
+    margin-bottom: 20px;
+  }
+
+  .all-services__list {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .all-services__item {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 0;
+  }
+  .all-services__inner {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .all-services__title {
+    margin-bottom: 20px;
+  }
+  .linie--gold {
+    margin-bottom: 30px;
+  }
+  .turkey__container {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .turkey-guide__container {
+    padding: 1.5vw;
+  }
+
+  .turkey-guide__bottom-wrap {
+    flex-direction: column;
+    align-items: stretch;
+    /* justify-content: center; */
+  }
+
+  .turkey-guide__right {
+    /* flex-direction: row; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 30%;
+  }
+
+  .turkey__container--left {
+    margin-right: 0;
+  }
+  .turkey-guide__wrap {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .turkey-guide__bottom-img {
+    flex: 1 1 120px;
+    max-width: 120px;
+  }
+  .turkey__title,
+  .turkey__subtitle {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .medicine__bottom-wrap {
+    flex-direction: column-reverse;
+  }
+  .medicine__note {
+    margin-bottom: 20px;
+  }
+  .medicine__top--left {
+    max-width: 100%;
+  }
+  .usa__subtitle {
+    text-align: center;
+  }
+
+  .study-languge__right {
+    margin: 0;
+  }
+  .study-languge__padding {
+    padding: 0;
+  }
+  .study-languge__padding-bottom {
+    padding-bottom: 0;
+  }
+  .study-language__wave {
+    display: block;
+    width: 120px;
+    position: absolute;
+    left: 70%;
+    top: 61%;
+    z-index: 100;
+  }
+  .language-school__subtitle {
+    padding: 30px 0;
+  }
+  .footer {
+    height: 75vw;
+    background: url("../img/footer__bg.png") no-repeat center / cover;
+  }
+  .footer__inner-list {
+    text-align: right;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    padding-top: 50px;
+  }
+  .universal__bottom-margin {
+    margin-bottom: 0;
+  }
+  .universal__img {
+    margin: 0;
+  }
+  /* .universal__bottom-wrap-top {
+    margin: 0;
+  } */
+  .consultation__subtitle--left {
+    padding-top: 0;
+  }
+  .consultation__img {
+    height: 150px;
+  }
+  .bulsari__logo {
+    max-width: 200px;
+  }
+
+  .result__right {
+    padding-top: 15px;
+  }
+  .consultation__title {
+    margin-bottom: 15px;
+  }
+  .universal__title {
+    margin-bottom: 15px;
+  }
+  .consultation__container {
+  }
+
+  .consultation__container--inner {
+    max-width: 100%;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .result__right {
+    padding: 0;
+  }
+  .self-study__guide-wrapper-large {
+    gap: 20px;
+  }
+
+  .self-study__guide-wrap {
+    width: 100%;
+  }
+  .asia-universe__cont {
+    width: 100%;
+  }
+}
+@media (max-width: 748px) {
+  .nav-top {
+    height: 77px;
+    background-image: var(--gold-linear);
+  }
+  .nav-top-line {
+    display: none;
+  }
+  .img__logo {
+    display: none;
+  }
+  .nav-bottom {
+    height: 90px;
+  }
+  .nav__bottom--left,
+  .nav__bottom--right {
+    display: none;
+  }
+  .logo-center {
+    max-width: 380px;
+    top: 80px;
+  }
+  /* .title {
+    margin-top: 20px;
+  } */
+  .hero__main {
+    background: none;
+  }
+  .hero__list {
+    width: 100%;
+  }
+
+  .hero__img {
+    display: none;
+  }
+  .hero__title {
+    text-align: center;
+  }
+  .hero__subtitle {
+    font-size: 19px;
+    padding: 0 15px;
+  }
+
+  .hero__gold,
+  .advantages__gold {
+    height: 60px;
+  }
+
+  .nav__contacts {
+    /* font-size: 16px; */
+  }
+  .nav__contacts-link {
+    /* font-size: 16px; */
+
+    padding: 7px 10px;
+    border-image: none;
+    color: #fff;
+  }
+  .nav__contacts-link:last-child {
+    display: none;
+  }
+  .link:hover,
+  .link:active,
+  .link:focus {
+    background: #fff;
+    color: #6a5a39;
+    cursor: pointer;
+  }
+  .nav__logo {
+    display: none;
+  }
+  .nav__burger {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .list__container {
+    background: none;
+    width: 100%;
+  }
+  .hero__title {
+    width: 100%;
+
+    /* margin-bottom: 15px; */
+    padding: 0 15px;
+  }
+  /* .hero__img {
+    width: 55px;
+  } */
+
+  .hero__image {
+    display: block;
+  }
+
+  .hero__linie-mobile {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .hero__list {
+    padding-right: 15px;
+    display: block;
+    margin: 0 0 25px 3vw;
+    max-width: 100vw;
+    font-size: 16px;
+  }
+  .list__container {
+    height: auto;
+  }
+  .opportunities__wrap {
+    margin: 20px 0;
+  }
+
+  .adventages__rentangle--white {
+    width: 65vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  .adventages__title {
+    margin-bottom: 15px;
+  }
+  .adventages__list {
+    font-size: 16px;
+  }
+  .consultation__container {
+    margin-bottom: 20px;
+  }
+  .success__title {
+    padding: 0 15px;
+  }
+  .success__subtitle {
+    margin-top: 20px;
+  }
+  .success__container {
+    margin-bottom: 20px;
+  }
+  .universal__bottom-wrap-top {
+    margin-bottom: 0;
+  }
+  .university-guide--container {
+    margin-top: 20px;
+  }
+  .subtitle-text {
+    padding-bottom: 0;
+  }
+  .linie--gold {
+    margin-bottom: 20px;
+  }
+  .plan__inner {
+    margin-bottom: 20px;
+  }
+  .turkey__container,
+  .universal__container {
+    margin-bottom: 20px;
+  }
+
+  .turkey-guide__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .turkey-guide__bottom-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+  }
+  .bulsari__container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .medicine__top--left {
+    margin-bottom: 20px;
+  }
+  .turkey__container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .contacts__container {
+    margin-bottom: 20px;
+  }
+  .contacts-bottom__img {
+    margin-bottom: 20px;
+  }
+  .study-language__title {
+    margin-bottom: 20px;
+  }
+  .turkey-guide__right {
+    flex-direction: row;
+    margin: 0;
+    padding: 0 15px;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .study-language__wave {
+    display: none;
+  }
+  .why__video-wrap {
+    margin-bottom: 20px;
+  }
+
+  .plan__img {
+    max-width: 250px;
+  }
+
+  .footer__inner-list {
+    padding-top: 73px;
+  }
+  .footer {
+    height: 70vw;
+    background: url("../img/footer__bg1.png") no-repeat center / cover;
+  }
+
+  .footer__contacts-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__contacts-img {
+    display: block;
+    margin-right: 15px;
+  }
+  .footer__inner-list {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .adventages__rentangle--white {
+    width: 90vw;
+  }
+  .logo-center {
+    padding: 0 15px;
+  }
+  .consultation__container {
+    max-width: 100%;
+  }
+
+  .consultation__left,
+  .consultation__right {
+    padding: 10px;
+  }
+  .universal__container {
+    max-width: 100%;
+  }
+  .subtitle-text {
+    max-width: 100%;
+  }
+  .link--contact {
+    font-size: 20px;
+    display: inline-block;
+    max-width: 350px;
+    padding: 1vw 1vw;
+    margin-right: 5px;
+  }
+  .bulsari__container {
+    margin: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .footer {
+    height: 80vh;
+    background: url("../img/footer__bg2.png") no-repeat center / cover;
+  }
+  .footer__inner-left--meta {
+    padding-left: 15px;
+
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .hero__subtitle {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .hero__gold {
+    height: 34px;
+  }
+  .hero__image img {
+    max-width: 336px;
+    margin: 0 auto;
+  }
+  .hero__title {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero__top {
+    margin: 20px 0;
+  }
+  .list-item {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .adventages__title {
+    margin-top: 15px;
+  }
+  .adventages__subtitle {
+    margin-bottom: 0;
+  }
+  .adventages__rentangle--white {
+    padding: 20px 15px;
+  }
+  .opportunities__subtitle {
+    margin-bottom: 15px;
+  }
+  .opportunities__text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .opportunities__container {
+    max-width: 100%;
+  }
+  .opportunities__img {
+    max-width: 162px;
+  }
+  .opportunities__item {
+    font-size: 13px;
+  }
+  .opportunities__list {
+    margin-right: 15px;
+  }
+  .consultation__container--inner {
+    padding: 22px 16px;
+  }
+  .consultation__title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  .text__wrap--gold-underline {
+    margin-bottom: 0;
+  }
+  .consultation__inner--top {
+    margin-bottom: 0;
+  }
+  .consultation__container--inner {
+    max-height: 100%;
+  }
+  .list-item--galka {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .universal__container {
+    padding: 22px 16px;
+  }
+  .universal__bottom-wrap480 {
+    gap: 5px;
+  }
+  .universal__center {
+    margin-top: 15px;
+  }
+  .universal__bottom-wrap-bottom {
+    margin-bottom: 0;
+  }
+  .universal__bottom-wrap-middle {
+    margin-bottom: 0;
+  }
+  .order2 {
+    order: 2;
+  }
+  .order3 {
+    order: 3;
+  }
+  .universal__img {
+    max-width: 138px;
+    height: 100%;
+  }
+  .universal__bottom-wrap {
+    gap: 5px;
+    justify-content: flex-start;
+  }
+  .success__container {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .success__title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+  .success__title-service {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+  .success__icon {
+    width: 56px;
+    height: 57px;
+    margin-bottom: 15px;
+  }
+  .success__subtitle--bottom:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+  .success__img-flag {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .margin15 {
+    margin-bottom: 15px;
+  }
+  .programs__item {
+    padding: 20px 0 0 0;
+    font-weight: 500;
+font-size: 22px;
+max-width: 360px;
+  }
+  .universal__bottom-wrap-top, .universal__bottom-wrap-bottom {
+    margin-bottom: 15px;
+
+  }
+  .subtitle-text {
+    font-weight: 500;
+font-size: 18px;
+padding: 0 15px;
+  }
+  .admission__title {
+    font-weight: 600;
+font-size: 22px;
+  }
+  .admission__subtitle {
+    font-weight: 500;
+font-size: 22px;
+  }
+  
+  .admission__img--wrap {
+    max-width: 170px;
+    max-height: 200px;
+  }
+  .admission__img {  
+    object-fit: cover;
+  }
+  .university-guide--title {
+    font-weight: 600;
+font-size: 22px;
+margin-bottom: 15px;
+  }
+  .university-guide__subtitle {
+    font-weight: 500;
+font-size: 18px;
+margin-bottom: 10px;
+padding: 0 15px;
+  }
+  .universal__bottom {
+    padding: 0;
+  }
+  .university-guide--wrapper {
+    margin-top: 0;
+    
+    padding-bottom: 0;
+  }
+  .university-guide__subtitle-text {
+    font-weight: 600;
+font-size: 22px;
+  }
+  .universal__bottom-wrap-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .why__video-wrap--left, .why__video-wrap {
+    width: 386px;
+    height: 221px;
+    
+  }
+  
+  .why__foto {
+    width: 193px;
+    height: 179px;
+  }
+  .subtitle-text__content {
+    font-weight: 500;
+font-size: 16px;
+  }
+.artist-guide__img--wrap {
+  max-width: 100%;
+  order: 2;
+}
+
+  .link--contact {
+    font-size: 16px;
+  }
+  .linie--gold {
+    margin-bottom: 20px;
+  }
+  .turkey-guide--text {
+    font-size: 18px;
+  }
+  .consultation__img {
+    height: 80px;
+  }
+  .footer {
+    height: 70vh;
+  }
+  .footer__contacts-img {
+    height: 20px;
+  }
+  .footer__inner-item {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .nav__contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 3px;
+  }
+  .nav__burger {
+    width: 35px;
+    height: 25px;
+  }
+}

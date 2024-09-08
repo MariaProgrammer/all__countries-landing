@@ -1,0 +1,20 @@
+.it-russia__bottom-container {
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.it-russia__img {
+  display: block; 
+  width: 100%;
+  height: 100%;
+  
+}
+.it-russia__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

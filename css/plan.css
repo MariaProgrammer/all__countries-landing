@@ -1,0 +1,8 @@
+.plan__inner {
+  margin-bottom: 40px;
+}
+.plan__img {
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+}

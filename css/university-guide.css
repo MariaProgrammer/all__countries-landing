@@ -1,0 +1,52 @@
+.university-guide--container {
+  max-width: 1020px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  
+ 
+}
+.university-wrap {
+  max-width: 745px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.university-guide--title {
+  font-size: var(--h1-title);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.university-guide--title span {
+  border-bottom: 3px solid #6A5A39;
+
+}
+.university-guide__subtitle {
+  margin-bottom: 10px;
+}
+.university-guide--wrapper {
+  padding: 0; 
+
+}
+.university-guide__subtitle-text{
+  text-align: center;
+}
+.university-guide__text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: justify;
+}
+.university-guide__text--center {
+  text-align: center;
+}
+
+.university-guide--gap {
+  gap: 60px;
+  padding: 0 15px;
+}
+
+
+

@@ -1,0 +1,5 @@
+.usa__subtitle {
+  font-size: var(--h3-subtitle);
+  font-weight: 500;  
+  margin-bottom: 35px;
+}

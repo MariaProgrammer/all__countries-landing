@@ -1,0 +1,52 @@
+.self-study__guide-container {
+  box-shadow: inset 0px 0px 0px 100vw #EDF7FC;
+  margin-bottom: 0;
+ 
+}
+.self-study__guide-title {
+  text-align: left;
+  
+
+}
+
+.self-study__guide-subtitle {
+  text-align: left;
+  font-size: var(--h1-subtitle);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 12px;
+  margin-bottom: 40px;
+}
+.self-study__guide-subtitle span{
+  border-bottom: 3px solid #6A5A39;
+  line-height: 1.4;
+}
+
+
+
+.self-study__guide-title--center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.self-study__guide-wrapper-large {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.self-study__guide-wrap {
+  max-width: 415px;
+  flex: 1 1 350px;
+  padding: 25px;
+  
+  
+}
+
+.self-study__guide-wrap--blue {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+

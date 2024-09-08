@@ -1,0 +1,9 @@
+.australia-guide__subtitle {
+  margin: 0 auto;
+  max-width: 1300px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.australia-guide__subtitle:last-of-type {
+  margin-bottom: 30px;
+}
