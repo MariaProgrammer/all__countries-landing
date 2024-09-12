@@ -4,10 +4,11 @@
 }
 .universe-guide__cont {
   max-width: 700px;
+  gap: 70px;
 }
 
 .univers-guide__top {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .universe-guide__bottom-img {

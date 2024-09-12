@@ -388,6 +388,15 @@ body {
   align-items: center;
 }
 
+.text__wrap--red-underline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  /* margin: 0 auto; */
+  margin-bottom: 1.5vw;
+}
+
 .gold__underline {
   width: 100%;
   height: 3px;

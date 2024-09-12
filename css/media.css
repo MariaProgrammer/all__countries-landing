@@ -909,6 +909,13 @@ padding: 0 15px;
   .universal__bottom {
     padding: 0;
   }
+  .universal__bottom-wrap {
+    align-items: center;
+    
+  }
+  .university-guide--gap {
+    padding: 0 15px;
+  }
   .university-guide--wrapper {
     margin-top: 0;
     
@@ -928,7 +935,11 @@ font-size: 22px;
     height: 221px;
     
   }
-  
+  .university-wrap {
+    margin-bottom: 0;
+    justify-content: space-between;
+    
+  }
   .why__foto {
     width: 193px;
     height: 179px;

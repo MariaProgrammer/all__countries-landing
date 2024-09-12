@@ -14,11 +14,13 @@
   color: #fff;
   font-size: var(--button-text);
   font-weight: 700;
+  padding-top: 0;
 }
 
 .language-school__button{
   background: #fff;
   color: var(--dark-blue);
+  max-width: 17vw;
   
   
 }
