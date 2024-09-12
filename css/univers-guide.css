@@ -3,7 +3,7 @@
   flex: 1 1 auto;
 }
 .universe-guide__cont {
-  max-width: 700px;
+  /* max-width: 700px; */
   gap: 70px;
 }
 
@@ -12,10 +12,14 @@
 }
 
 .universe-guide__bottom-img {
-  flex: 1 1 auto;
+  align-self: center;
+  width: 100%;
   max-width: 350px;
-  margin-left: 15px;
-  align-self: flex-end;
+  flex: 1 0 350px;
+  height: 100%;
+  
+  
+  
 }
 .universe-guide__img {
   display: block;
@@ -26,4 +30,8 @@
 
 .universe-guide__result {
   color: var(--accent-color);
+}
+
+.universe-guide__bottom {
+  width: 100%;
 }

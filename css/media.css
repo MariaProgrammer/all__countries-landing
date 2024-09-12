@@ -300,6 +300,9 @@
   .linie--gold {
     margin-bottom: 30px;
   }
+  .turkey-guide-wrap__top {
+    max-width: 100%;
+  }
   .turkey__container {
     padding: 0 15px;
     margin-bottom: 30px;
@@ -329,12 +332,42 @@
     margin-right: 0;
   }
   .turkey-guide__wrap {
-    align-items: center;
+    flex-direction: column;
+    align-items:center;
     justify-content: center;
   }
+  .turkey-guide__bottom {
+    justify-content: flex-start;
+  }
+  .turkey-guide-wrap__top, .turkey-guide-wrap__bottom {
+    padding: 1.5vw;
+    flex: 1;
+    max-width: 100%;
 
+}
+  .turkey-guide__bottom-cont {
+    width: 100%;
+  }
+  .turkey-guide__right {
+    max-width: 100%;
+    width: 100%;
+    gap: 40px;
+  }
+  .turkey-guide--text {
+    max-width: 100%;
+    width: 100%;
+    /* padding-right: 15vw; */
+    /* align-self: flex-start;
+     */
+  }
+  .turkey-guide__right {
+    margin: 0;
+    text-align: left;
+  }
   .turkey-guide__bottom-img {
-    flex: 1 1 120px;
+    position: absolute;
+    right: 4%;
+    top: 6%;    
     max-width: 120px;
   }
   .turkey__title,
@@ -351,6 +384,25 @@
   .medicine__top--left {
     max-width: 100%;
   }
+  .universe-guide__cont {
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: stretch;
+
+  }
+  .universal__bottom-wrap-top, .universal__bottom-wrap-bottom {
+    width: 100%;
+    max-width: 100%;
+    align-self: stretch;
+  }
+  .university-guide__bottom-wrap {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }  
+  .asia-universe__cont {
+    gap: 20px;
+  }
+  
   .usa__subtitle {
     text-align: center;
   }
@@ -373,8 +425,17 @@
     z-index: 100;
   }
   .language-school__subtitle {
-    padding: 30px 0;
+    padding: 0;
   }
+  .language-school__button {
+    max-width: 100%;
+  }
+  .self-study__guide-wrap {
+    flex: 1;
+  }
+  /* .language-school__button {
+    display: none;
+  } */
   .footer {
     height: 75vw;
     background: url("../img/footer__bg.png") no-repeat center / cover;
@@ -521,7 +582,7 @@
     width: 100%;
   }
   .hero__title {
-    width: 100%;    
+    width: 100%;
   }
   /* .hero__img {
     width: 55px;
@@ -598,16 +659,22 @@
     margin-bottom: 20px;
   }
 
-  .turkey-guide__wrap {
+    .turkey-guide__wrap {
     display: flex;
     flex-direction: column;
+  }
+  .turkey-guide__bottom {
+    align-items: center;justify-content: center;
+
   }
   .turkey-guide__bottom-cont {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+    gap: 15px;
   }
+  
   .bulsari__container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -642,6 +709,16 @@
   .why__video-wrap {
     margin-bottom: 20px;
   }
+  .why__wrap {
+    flex-direction: column;
+  }
+  .img__question {
+    width: 30px;
+  }
+  .why__video-wrap--right{
+    margin-bottom: 15px;
+  }
+  
 
   .plan__img {
     max-width: 250px;
@@ -703,6 +780,20 @@
     margin-bottom: 20px;
     max-width: 100%;
   }
+  .turkey-guide__right {
+    padding: 0;
+  }
+  .turkey-guide__bottom-img {
+    position: absolute;
+    right: 4%;
+    top: 77%;
+    max-width: 80px;
+  }
+  .turkey-guide--text {
+    font-size: 16px;
+    text-align: left;
+    max-width: 70%;
+  }
   .footer {
     height: 80vh;
     background: url("../img/footer__bg2.png") no-repeat center / cover;
@@ -751,6 +842,9 @@
   .title {
     font-size: 20px;
   }
+  .adventages__rentangle--white {
+    width: 100vw;
+  }
   .adventages__title {
     margin-top: 15px;
   }
@@ -759,6 +853,9 @@
   }
   .adventages__rentangle--white {
     padding: 20px 15px;
+  }
+  .opportunities__container {
+    flex-direction: column;
   }
   .opportunities__subtitle {
     margin-bottom: 15px;
@@ -779,13 +876,24 @@
   .opportunities__list {
     margin-right: 15px;
   }
+  .bulsari__wrap-top--last {
+    width: 100%;
+    max-width: 100%;
+  }
+  .consultation__button--container {
+    width: 100%;
+    max-width: 100%;
+  }
   .consultation__container--inner {
     padding: 22px 16px;
   }
   .consultation__title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: var(--h2-subtitle);
     text-align: center;
+  }
+  .contacts__subtitle {
+    font-size: var(--h3-subtitle);
   }
   .text__wrap--gold-underline {
     margin-bottom: 0;
@@ -795,15 +903,11 @@
   }
   .consultation__container--inner {
     max-height: 100%;
-  }
-  .list-item--galka {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 160%;
-  }
+  } 
   .universal__container {
-    padding: 22px 16px;
+    padding: 3vw;
   }
+  
   .universal__bottom-wrap480 {
     gap: 5px;
   }
@@ -841,7 +945,7 @@
   }
   .success__title-service {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
   .success__icon {
@@ -864,51 +968,45 @@
   .programs__item {
     padding: 20px 0 0 0;
     font-weight: 500;
-font-size: 22px;
-max-width: 360px;
+    font-size: 22px;
+    max-width: 360px;
   }
-  .universal__bottom-wrap-top, .universal__bottom-wrap-bottom {
+  .universal__bottom-wrap-top,
+  .universal__bottom-wrap-bottom {
     margin-bottom: 15px;
-
   }
   .subtitle-text {
     font-weight: 500;
-font-size: 18px;
-padding: 0 15px;
+    font-size: 16px;
+    padding: 0 15px;
   }
-  .admission__title {
-    font-weight: 600;
-font-size: 22px;
-  }
+
   .admission__subtitle {
     font-weight: 500;
-font-size: 22px;
+    font-size: 20px;
   }
-  
+
   .admission__img--wrap {
     max-width: 170px;
     max-height: 200px;
   }
-  .admission__img {  
+  .admission__img {
     object-fit: cover;
   }
   .university-guide--title {
     font-weight: 600;
-font-size: 22px;
-margin-bottom: 15px;
+text-align: center;
+    margin-bottom: 15px;
   }
   .university-guide__subtitle {
-    font-weight: 500;
-font-size: 18px;
-margin-bottom: 10px;
-padding: 0 15px;
+    font-weight: 500;    
+    margin-bottom: 10px;
   }
   .universal__bottom {
     padding: 0;
   }
   .universal__bottom-wrap {
     align-items: center;
-    
   }
   .university-guide--gap {
     padding: 0;
@@ -918,29 +1016,51 @@ padding: 0 15px;
   }
   .university-guide--wrapper {
     margin-top: 0;
-    
+
     padding-bottom: 0;
   }
-  .university-guide__subtitle-text {
-    font-weight: 600;
-font-size: 22px;
-  }
+  
   .universal__bottom-wrap-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 100%;
-  } 
-  .why__video-wrap--left, .why__video-wrap {
+  }
+  .universe-guide__cont {
+    gap: 20px;
+  }
+  .contacts__title {
+    
+    font-size: var(--h3-subtitle);
+    
+  }
+  .medicine__subtitle, .bulsari__result {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+  }
+  .medicine__result, .bulsari__note {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .turkey-guide__top--left {
+    margin-right: 0;
+    width: 100%;
+  }
+  .why__video-wrap--left,
+  .why__video-wrap {
     max-width: 386px;
     max-height: 221px;
-    
   }
   .university-wrap {
     margin-bottom: 0;
     justify-content: space-between;
-    
+  }
+  .turkey-guide__bottom-img {    
+    top: 79%;   
   }
   .why__foto {
     width: 100%;
@@ -948,12 +1068,12 @@ font-size: 22px;
   }
   .subtitle-text__content {
     font-weight: 500;
-font-size: 16px;
+    font-size: 16px;
   }
-.artist-guide__img--wrap {
-  max-width: 100%;
-  order: 2;
-}
+  .artist-guide__img--wrap {
+    max-width: 100%;
+    order: 2;
+  }
 
   .link--contact {
     font-size: 16px;
@@ -961,9 +1081,7 @@ font-size: 16px;
   .linie--gold {
     margin-bottom: 20px;
   }
-  .turkey-guide--text {
-    font-size: 18px;
-  }
+  
   .consultation__img {
     height: 80px;
   }

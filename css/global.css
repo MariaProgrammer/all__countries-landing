@@ -100,7 +100,7 @@ h4 {
   --h1-menu: calc(8px + 12 * (100vw - 320px) / 1600);
   /* --h1-subtitle: calc(8px + 18 * (100vw - 320px) / 1600); */
   --h1-subtitle: calc(20px + 8 * (100vw - 320px) / 1600);
-  --h2-subtitle: calc(16px + 10 * (100vw - 320px) / 1600);
+  --h2-subtitle: calc(18px + 12 * (100vw - 320px) / 1600);
   --h3-subtitle: calc(16px + 8 * (100vw - 320px) / 1600);
   --h4-subtitle: calc(16px + 4 * (100vw - 320px) / 1600);
   --h1-list: calc(14px + 2 * (100vw - 320px) / 1600);
@@ -319,7 +319,7 @@ body {
   font-weight: 500;
   position: relative;
   padding-left: 30px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .list-item--galka::before {
@@ -373,8 +373,12 @@ body {
 }
 
 .text__wrap--underline {
-  border-bottom: 3px solid var(--dark-blue);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
   margin-bottom: 15px;
+  
 }
 .text__wrap--gold-underline {
   display: inline-flex;

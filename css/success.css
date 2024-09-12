@@ -17,6 +17,10 @@
   margin-bottom: 20px;
 }
 
+.success__title span {
+  border-bottom: 2px solid var(--dark-blue);
+}
+
 .success__img {
   display: block;
   width: 100%;
