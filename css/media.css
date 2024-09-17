@@ -114,6 +114,9 @@
   .university-guide__bottom-wrap {
     align-items: center;
   }
+  .univers-guide__top {
+    margin-bottom: 15px;
+}
   .universe-guide__bottom-img {
     order: 0;
     align-self: center;

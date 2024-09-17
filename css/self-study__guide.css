@@ -54,6 +54,13 @@
 .self-study__guide-cont {
   margin-bottom: 0;
 }
+.self-study__guide--uppertext {
+  font-size: var(--footer-menu);
+  font-weight: 500;
+  max-width: 430px;
+  text-align: center;
+  margin-bottom: 0;
+}
 .self-study__guide-text {
   font-size: var(--footer-menu);
     font-weight: 500;

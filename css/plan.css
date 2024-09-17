@@ -1,8 +1,10 @@
 .plan__inner {
   margin-bottom: 40px;
+  text-align: center;
 }
 .plan__img {
   display: block;
   max-width: 350px;
   margin: 0 auto;
+  margin-top: 35px;
 }
