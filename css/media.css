@@ -43,6 +43,9 @@
   .subtitle {
     font-size: 18px;
   }
+  .nav__bottom-item {
+    margin-right: 80px;
+  }
 
   .adventages__subtitle {
     margin-bottom: 15px;
@@ -639,9 +642,7 @@
   .consultation__container {
     margin-bottom: 20px;
   }
-  .success__title {
-    padding: 0 15px;
-  }
+  
   .success__subtitle {
     margin-top: 20px;
   }
@@ -863,6 +864,12 @@
   .adventages__rentangle--white {
     padding: 20px 15px;
   }
+  .subtitle1920 {
+    display: none;
+  }
+  .subtitle480 {
+    display: block;
+  }
   .opportunities__container {
     flex-direction: column;
   }
@@ -936,7 +943,7 @@
     order: 3;
   }
   .universal__img {
-    max-width: 138px;
+    /* max-width: 138px; */
     height: 100%;
   }
   .universal__bottom-wrap {
@@ -954,7 +961,7 @@
   }
   .success__title-service {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
   .success__icon {
@@ -1002,6 +1009,11 @@
   .admission__img {
     object-fit: cover;
   }
+  .universe-guide__bottom-img {    
+    max-width: 250px;
+    flex: 1 1 250px;
+    
+  }
   .university-guide--title {
     font-weight: 600;
 text-align: center;
@@ -1033,9 +1045,15 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+   /* margin-bottom: 0; */
     width: 100%;
     max-width: 100%;
+   
   }
+.universal__bottom-wrap-bottom {
+  margin-bottom: 0;
+} 
+
   .universe-guide__cont {
     gap: 20px;
   }
@@ -1071,6 +1089,12 @@ text-align: center;
   .turkey-guide__bottom-img {    
     top: 79%;   
   }
+  .turkey__title {
+    text-align: center;
+  }
+  .turkey__subtitle {
+    text-align: center;
+  }
   .why__foto {
     width: 100%;
     height: 100%;
@@ -1094,6 +1118,9 @@ text-align: center;
   .consultation__img {
     height: 80px;
   }
+  .why__img-question {
+    width: 40px;
+  }
   .footer {
     height: 70vh;
   }
@@ -1112,6 +1139,9 @@ text-align: center;
   .nav__burger {
     width: 35px;
     height: 25px;
+  }
+  .footer__inner-list {
+    padding-top: 0;
   }
 }
 

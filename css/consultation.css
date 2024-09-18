@@ -151,7 +151,7 @@ span.color {
   justify-content: space-between;
   padding: 1.5vw;
   max-width: 580px;
-  max-height: 650px;
+  /* max-height: 650px; */
 }
 .consultation__inner--top {
   width: 100%;

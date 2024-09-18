@@ -109,7 +109,7 @@ h4 {
   --button-text: calc(18px + 4 * (100vw - 320px) / 1600);
   --footer-meta: calc(10px + 4 * (100vw - 320px) / 1920);
   --footer-menu: calc(12px + 4 * (100vw - 320px) / 1920);
-  --text-galka: calc(10px + 4 * (100vw - 320px) / 1560);
+  --text-galka: calc(12px + 4 * (100vw - 320px) / 1560);
   --why-subtitle: calc(16px + 4 * (100vw - 320px) / 1600);
   --why-text-story: calc(10px + 4 * (100vw - 320px) / 1920);
   
