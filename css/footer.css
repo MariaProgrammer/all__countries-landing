@@ -2,7 +2,7 @@
   width: 100vw;
   height: 50vw;
  
-  background: url("../img/footer__bg-s.png") no-repeat center / cover; 
+  background: url("../img/footer__bg1.png") no-repeat center / cover; 
   position: relative;
 }
 .footer__inner {
@@ -14,10 +14,22 @@
   
   
 }
+.footer-meta__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3vw;
+}
+.footer__meta {
+  text-align: center;
+  max-width: 150px;
+}
 .logo__footer {
   display: block;
   width: 53px;
   margin-bottom: 5px;
+  margin-right: 25px;
+  padding-bottom: 35px;
 
   
 }
@@ -32,9 +44,9 @@
 .footer__inner-left--meta {
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
   justify-content: space-between;
-  padding-left: 25px;
+  
 }
 
 .footer__meta {
@@ -48,7 +60,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .footer__contacts-bottom {
